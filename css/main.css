@@ -13,6 +13,12 @@
   background-repeat: no-repeat;
   margin: 10px;}
 
+.oscuramento{
+  width: auto;
+  height: 100vh;
+  background-color: rgba(44, 46, 45, 0.3);
+}
+
 .destinazione.seconda{
   background-image: url("../img/copenaghen.jpg");
 }
