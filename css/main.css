@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.destinazione{
+  position: relative;
+  width: auto;
+  height: 100vh;
+  background-image: url("../img/roma.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;}
+
+.destinazione.seconda{
+  background-image: url("../img/copenaghen.jpg");
+}
+
+.destinazione.terza{
+  background-image: url("../img/tokyo1.jpg");
+
+}
+
+.testo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: White;
+  font-variant-caps: small-caps;
+  text-shadow:2px 2px black;
+  font-size: 80px;
+}
